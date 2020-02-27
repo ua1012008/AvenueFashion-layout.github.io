@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8" />
+	
+	<title>Avenue Fashion</title>
+	<meta name="description" content="Site layout example" />
+	
+	<meta name="viewport" content="width=device-width" />
+	
+	<link rel="icon" href="img/favicon.png" />
+	<meta property="og:image" content="img/@1x/preview.jpeg" />
+	<link rel="stylesheet" href="css/styles.min.css" />
+	
+</head>
+
+<body>
+
+<header>
+	
+	<div class="top-block-header">
+		<div class="top-bar wrapper">
+			<div class="control">
+				<div class="lang-select">
+					<label for="select-box">Currency :</label>
+					<select id="select-box">
+						<option value="ru">RU</option>
+						<option value="en">EN</option>
+						<option value="de">DE</option>
+					</select>
+				</div>
+				<a href="sing.html" class="register">Register</a>
+				<a href="sing.html" class="sign">Sign In</a>
+			</div>
+			<div class="basket">
+				<a href="product.html" class="empty">
+					<i class="fa fa-shopping-basket"></i>empty
+				</a>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container">
+		
+		<div class="bottom-block-header">
+			<a href="index.html" class="logo"><span>avenue</span>fashion</a>
+			
+			<div class="menu">
+				<ul class="menu-list">
+					<li><a href="#" class="menu-list-link">mens</a>
+						<ul class="menu-drop-list">
+							<li class="drop-flex">
+								<ul>
+									<li><h4>casuals</h4></li>
+									<li><a href="#">Jackets</a></li>
+									<li><a href="#">Hoodies & Sweatshirts</a></li>
+									<li><a href="#">Polo Shirts</a></li>
+									<li><a href="#">Sportswear</a></li>
+									<li><a href="#">Trousers & Chinos</a></li>
+									<li><a href="#">T-Shirts</a></li>
+								</ul>
+								<ul>
+									<li><h4>Formal</h4></li>
+									<li><a href="#">Jackets</a></li>
+									<li><a href="#">Shirts</a></li>
+									<li><a href="#">Suits</a></li>
+									<li><a href="#">Hoodies & Sweatshirts</a></li>
+								</ul>
+							</li>
+							<li class="drop-banner"><span>Autumn sale!</span><br>
+								up to 50% off</li>
+						</ul>
+					</li>
+					<li><a href="#" class="menu-list-link">womens</a>
+						<ul class="menu-drop-list">
+							<li class="drop-flex">
+								<ul>
+									<li><h4>casuals</h4></li>
+									<li><a href="#">Jackets</a></li>
+									<li><a href="#">Hoodies & Sweatshirts</a></li>
+									<li><a href="#">Polo Shirts</a></li>
+									<li><a href="#">Sportswear</a></li>
+									<li><a href="#">Trousers & Chinos</a></li>
+									<li><a href="#">T-Shirts</a></li>
+								</ul>
+								<ul>
+									<li><h4>Formal</h4></li>
+									<li><a href="#">Jackets</a></li>
+									<li><a href="#">Shirts</a></li>
+									<li><a href="#">Suits</a></li>
+									<li><a href="#">Hoodies & Sweatshirts</a></li>
+								</ul>
+							</li>
+							<li class="drop-banner"><span>Autumn sale!</span><br>
+								up to 50% off</li>
+						</ul>
+					</li>
+					<li><a href="#" class="menu-list-link">the brand</a>
+						<ul class="menu-drop-list">
+							<li class="drop-flex">
+								<ul>
+									<li><h4>casuals</h4></li>
+									<li><a href="#">Jackets</a></li>
+									<li><a href="#">Hoodies & Sweatshirts</a></li>
+									<li><a href="#">Polo Shirts</a></li>
+									<li><a href="#">Sportswear</a></li>
+									<li><a href="#">Trousers & Chinos</a></li>
+									<li><a href="#">T-Shirts</a></li>
+								</ul>
+								<ul>
+									<li><h4>Formal</h4></li>
+									<li><a href="#">Jackets</a></li>
+									<li><a href="#">Shirts</a></li>
+									<li><a href="#">Suits</a></li>
+									<li><a href="#">Hoodies & Sweatshirts</a></li>
+								</ul>
+							</li>
+							<li class="drop-banner"><span>Autumn sale!</span><br>
+								up to 50% off</li>
+						</ul>
+					</li>
+					
+					<li><a href="local.html" class="menu-list-link">local stores</a></li>
+					
+					<li><a href="brand.html" class="menu-list-link">look book</a></li>
+				</ul>
+			</div>
+			
+			<div class="search-container">
+				<form action="">
+					<input type="text" placeholder="Search..." name="search">
+					<button type="submit"><i class="fa fa-search"></i>
+					</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+</header>
+
+<div class="content">
+	<div class="company-slogan">
+		<div class="header-brand">
+			<h1><span>the</span>brand</h1>
+			<h4>mens - casuals - hoodies & sweatshirts - <span class="accent-color">ave classic sweatshirt</span></h4>
+		</div>
+	</div>
+	<div class="wrapper">
+		
+		<div class="block-product">
+			<div class="product-slider">
+				<div class="product-swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="swiper-zoom-container">
+								<img src="./img/slider-1.jpeg">
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="swiper-zoom-container">
+								<img src="./img/slider-2.jpeg">
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="swiper-zoom-container">
+								<img src="./img/slider-3.jpeg">
+							</div>
+						</div>
+					</div>
+					<!-- Add Pagination -->
+					<div class="swiper-pagination swiper-pagination-white"></div>
+					<!-- Add Navigation -->
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+				</div>
+			</div>
+			<div class="product-card">
+				<div class="product-details">
+					<h2 class="product-name">Ave classic sweatshirt</h2>
+					<div class="product-interest">
+						<div class="product-rating">
+							<form class="rating-form" action="#" method="post" name="rating-movie">
+								<fieldset class="form-group">
+									
+									<div class="form-item">
+										
+										<input id="rating-5" name="rating" type="radio" value="5" />
+										<label for="rating-5" data-value="5">
+        <span class="rating-star">
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star"></i>
+        </span>
+										</label>
+										<input id="rating-4" name="rating" type="radio" value="4" />
+										<label for="rating-4" data-value="4">
+        <span class="rating-star">
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star"></i>
+        </span>
+										</label>
+										<input id="rating-3" name="rating" type="radio" value="3" />
+										<label for="rating-3" data-value="3">
+        <span class="rating-star">
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star"></i>
+        </span>
+										</label>
+										<input id="rating-2" name="rating" type="radio" value="2" />
+										<label for="rating-2" data-value="2">
+        <span class="rating-star">
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star"></i>
+        </span>
+										</label>
+										<input id="rating-1" name="rating" type="radio" value="1" />
+										<label for="rating-1" data-value="1">
+        <span class="rating-star">
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star"></i>
+        </span>
+										</label>
+									
+									</div>
+								
+								</fieldset>
+							</form>
+						</div>
+						<div class="product-review">
+							<a href="#" class="review-link">3 Review(s)</a>&brvbar;<a href="#" class="review-link">Add a Review</a> &brvbar;
+						</div>
+						<div class="product-share">
+							<ul>
+								<li>Share:</li>
+								<li><a href="#">
+									<i class="fa fa-facebook"></i>
+								</a></li>
+								<li><a href="#">
+									<i class="fa fa-twitter"></i>
+								</a></li>
+								<li><a href="#">
+									<i class="fa fa-google-plus"></i>
+								</a></li>
+								<li><a href="#">
+									<i class="fa fa-pinterest-p"></i>
+								</a></li>
+								<li><a href="#">
+									<i class="fa fa-instagram"></i>
+								</a></li>
+								<li><a href="#">
+									<i class="fa fa-envelope-open-o"></i>
+								</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="product-price">
+					<h3 class="price-tag"><del class="product-old-price"><span class="product-currency">&pound;</span>107</del><span class="product-currency">&pound;</span>89.99</h3>
+				</div>
+				<div class="product-class">
+					<p class="product-marker-p">Availability : <span class="product-marker">In stock</span></p>
+					<p class="product-marker-p">Product Code : <span class="product-marker">#499577</span></p>
+					<ul class="product-tags">
+						<li>Tags :</li>
+						<li><a href="#">Classic,</a></li>
+						<li><a href="#">Casual,</a></li>
+						<li><a href="#">V-neck,</a></li>
+						<li><a href="#"> Loose</a></li>
+					</ul>
+					<p class="feature">Donec sem lorem laoreet tempor un risus vitae, rutrum sodales nibh suspendisse est congue metus nunc, id viverra elit loreti rhoncus quis consecteur es. Donec pulvinar tempor lorem a pretium justo interdum</p>
+					<ul class="product-fabric">
+						<li>Elasticated cuffs</li>
+						<li>Casual fit</li>
+						<li>100% Cotton</li>
+						<li>Free shipping with 4 days delivery</li>
+					</ul>
+				</div>
+				<div class="product-options">
+					<div class="product-select">
+						<label for="color-box">color</label>
+						<select class="input-select" id="color-box">
+							<option value="0" selected>Select Colour</option>
+							<option value="1">LX</option>
+							<option value="2">XXX</option>
+						</select>
+					</div>
+					<div class="product-select">
+						<label for="size-box">size</label>
+						<select class="input-select" id="size-box">
+							<option value="0" selected>Select Size</option>
+							<option value="1">green</option>
+							<option value="2">orange</option>
+						</select>
+					</div>
+					<div class="product-select">
+						<label for="size-box">QTY</label>
+						<div class="counter">
+							<button type="button" class="but counterBut dec">
+								<i class="fa fa-angle-up"></i>
+							</button>
+							<input type="text" class="field fieldCount" value="1" data-min="1" data-max="20">
+							<button type="button" class="but counterBut inc">
+								<i class="fa fa-angle-down"></i>
+							</button>
+						</div>
+					</div>
+				</div>
+				<button class="main-button">
+					<i class="fa fa-shopping-cart"></i>
+					Add to Cart
+				</button>
+				<button class="main-button">
+					<i class="fa fa-heart"></i>
+					Add to LookBook
+				</button>
+				<div class="compare">
+					<button class="main-button">
+						<i class="fa fa-compress"></i>
+						Add to Compare
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="wrapper">
+		<div class="product-tab">
+			<ul id="nav" class="product-tab-description">
+				<li><a href="#">Description</a>
+					<section class="product-description">
+						<h2>Nunc egestas posuere enim, eu maximus erat posuere eget</h2>
+						<p>Sed ut mi mollis, consequat nulla lacinia, hendrerit turpis. Nulla sapien magna, interdum quis pretium nec, pharetra at felis. Curabitur dictum sapien est, eget ultricies turpis porta vel. Nam suscipit nec lacus sed imperdiet. Vestibulum a purus risus. Nulla et dictum augue, nec efficitur mi. Nam sit amet pretium elit. Aliquam congue, ligula id vehicula vestibulum, orci ex vulputate lacus, ac malesuada elit dolor eget ex. Sed quis aliquet risus, ut cursus lectus. In eget lorem tellus.
+							
+							Quisque eleifend varius nisi nec sagittis. Nulla ullamcorper imperdiet justo, ut venenatis purus lobortis ut. Nunc sagittis urna et hendrerit sodales. Nunc molestie risus nec fringilla lacinia. Nulla facilisi. Etiam neque velit, tristique eget sollicitudin eget, placerat at metus. Proin dictum lobortis velit, id suscipit orci faucibus ut. Aliquam erat volutpat. Vivamus feugiat justo in diam placerat, id dignissim elit auctor. Vestibulum scelerisque sem et lobortis ultricies. Morbi suscipit nulla urna. Suspendisse potenti. Nullam varius quam sed nisl dignissim, vel faucibus ipsum blandit. Vivamus at suscipit augue. Nam finibus gravida lorem eu viverra. Praesent rhoncus imperdiet ultricies. Nullam pretium cursus augue auctor vulputate. Quisque a convallis diam commodo eget diam id, eleifend dictum libero. Etiam varius, nisi vel dignissim sodales, enim dui posuere mauris, in aliquet lorem eros eget neque.</p>
+					</section>
+				</li>
+				<li><a href="#">Video </a>
+					<section class="product-description">
+						<h2>Sed ut mi mollis, consequat nulla</h2>
+						<p>Sed ut mi mollis, consequat nulla lacinia, hendrerit turpis. Nulla sapien magna, interdum quis pretium nec, pharetra at felis. Curabitur dictum sapien est, eget ultricies turpis porta vel. Nam suscipit nec lacus sed imperdiet. Vestibulum a purus risus. Nulla et dictum augue, nec efficitur mi. Nam sit amet pretium elit. Aliquam congue, ligula id vehicula vestibulum, orci ex vulputate lacus, ac malesuada elit dolor eget ex. Sed quis aliquet risus, ut cursus lectus. In eget lorem tellus.
+							
+							Quisque eleifend varius nisi nec sagittis. Nulla ullamcorper imperdiet justo, ut venenatis purus lobortis ut. Nunc sagittis urna et hendrerit sodales. Nunc molestie risus nec fringilla lacinia. Nulla facilisi. Etiam neque velit, tristique eget sollicitudin eget, placerat at metus. Proin dictum lobortis velit, id suscipit orci faucibus ut. Aliquam erat volutpat. Vivamus feugiat justo in diam placerat, id dignissim elit auctor. Vestibulum scelerisque sem et lobortis ultricies. Morbi suscipit nulla urna. Suspendisse potenti. Nullam varius quam sed nisl dignissim, vel faucibus ipsum blandit. Vivamus at suscipit augue. Nam finibus gravida lorem eu viverra. Praesent rhoncus imperdiet ultricies. Nullam pretium cursus augue auctor vulputate. Quisque a convallis diam commodo eget diam id, eleifend dictum libero. Etiam varius, nisi vel dignissim sodales, enim dui posuere mauris, in aliquet lorem eros eget neque.</p>
+					</section>
+				</li>
+				<li><a href="#">table of sizes</a>
+					<section class="product-description product-table">
+						<div class="tab-scroll">
+							<h2>Sed ut mi mollis, consequat nulla</h2>
+							<table class="cf">
+								<thead class="cf">
+								<tr>
+									<th>waist cm</th>
+									<th>xs</th>
+									<th>s</th>
+									<th>m</th>
+									<th>l</th>
+									<th>xl</th>
+								</tr>
+								</thead>
+								<tbody>
+								<tr>
+									<td><strong>chest girth</strong></td>
+									<td>76-84</td>
+									<td>84-92</td>
+									<td>92-100</td>
+									<td>100-108</td>
+									<td>108-116</td>
+								</tr>
+								<tr>
+									<td><strong>waist circumference</strong></td>
+									<td>56-64</td>
+									<td>64-72</td>
+									<td>72-80</td>
+									<td>80-88</td>
+									<td>88-96</td>
+								</tr>
+								<tr>
+									<td><strong>hip girth</strong></td>
+									<td>84-92</td>
+									<td>92-100</td>
+									<td>100-108</td>
+									<td>108-116</td>
+									<td>116-124</td>
+								</tr>
+								<tr>
+									<td><strong>cis</strong></td>
+									<td>38-42</td>
+									<td>42-46</td>
+									<td>46-50</td>
+									<td>50-54</td>
+									<td>54-58</td>
+								</tr>
+								<tr>
+									<td><strong>Europe</strong></td>
+									<td>32-36</td>
+									<td>36-40</td>
+									<td>40-44</td>
+									<td>44-48</td>
+									<td>48-52</td>
+								</tr>
+								</tbody>
+							</table>
+						</div>
+					</section>
+				</li>
+				<li><a href="#">Reviews</a>
+					<section class="product-description">
+						<h2>Quisque eleifend varius nisi nec sagittis</h2>
+						<blockquote>
+							<header>
+								<img src="img/avatar.png" class="rating-img" alt="avatar">
+								<div class="block-rating-header">
+									<div class="product-rating">
+										<form class="rating-form" action="#" method="post" name="rating-movie">
+											<fieldset class="form-group">
+												
+												<div class="form-item">
+													
+													<input id="05" name="rating" type="radio" value="5" />
+													<label for="05" data-value="5">
+        <span class="rating-star">
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star"></i>
+        </span>
+													</label>
+													<input id="04" name="rating" type="radio" value="4" />
+													<label for="04" data-value="4">
+        <span class="rating-star">
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star"></i>
+        </span>
+													</label>
+													<input id="03" name="rating" type="radio" value="3" />
+													<label for="03" data-value="3">
+        <span class="rating-star">
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star"></i>
+        </span>
+													</label>
+													<input id="02" name="rating" type="radio" value="2" />
+													<label for="02" data-value="2">
+        <span class="rating-star">
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star"></i>
+        </span>
+													</label>
+													<input id="01" name="rating" type="radio" value="1" />
+													<label for="01" data-value="1">
+        <span class="rating-star">
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star"></i>
+        </span>
+													</label>
+												</div>
+											</fieldset>
+										</form>
+									</div>
+									<strong>Kudryashov Gerasim</strong>
+									<span>, July 12</span>
+									<span>By <em>Wolfam</em></span>
+									<span>Sed ut mi mollis</span>
+								</div>
+							</header>
+							<p>Sed ut mi mollis, consequat nulla lacinia, hendrerit turpis. Nulla sapien magna, interdum quis pretium nec, pharetra at felis.</p>
+						</blockquote>
+						<blockquote>
+							<header>
+								<img src="img/avatar.png" class="rating-img" alt="avatar">
+								<div class="block-rating-header">
+									<div class="product-rating">
+										<form class="rating-form" action="#" method="post" name="rating-movie">
+											<fieldset class="form-group">
+												
+												<div class="form-item">
+													
+													<input id="015" name="rating" type="radio" value="5" />
+													<label for="015" data-value="5">
+        <span class="rating-star">
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star"></i>
+        </span>
+													</label>
+													<input id="014" name="rating" type="radio" value="4" />
+													<label for="014" data-value="4">
+        <span class="rating-star">
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star"></i>
+        </span>
+													</label>
+													<input id="013" name="rating" type="radio" value="3" />
+													<label for="013" data-value="3">
+        <span class="rating-star">
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star"></i>
+        </span>
+													</label>
+													<input id="012" name="rating" type="radio" value="2" />
+													<label for="012" data-value="2">
+        <span class="rating-star">
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star"></i>
+        </span>
+													</label>
+													<input id="011" name="rating" type="radio" value="1" />
+													<label for="011" data-value="1">
+        <span class="rating-star">
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star"></i>
+        </span>
+													</label>
+												</div>
+											</fieldset>
+										</form>
+									</div>
+									<strong>Frolov Leopold</strong>
+									<span>, July 12</span>
+									<span>By <em>Wolfam</em></span>
+									<span>Sed ut mi mollis</span>
+								</div>
+							</header>
+							<p>Sed ut mi mollis, consequat nulla lacinia, hendrerit turpis. Nulla sapien magna, interdum quis pretium nec, pharetra at felis.</p>
+						</blockquote>
+						<blockquote>
+							<header>
+								<img src="img/avatar.png" class="rating-img" alt="avatar">
+								<div class="block-rating-header">
+									<div class="product-rating"3>
+										<form class="rating-form" action="#" method="post" name="rating-movie">
+											<fieldset class="form-group">
+												
+												<div class="form-item">
+													
+													<input id="025" name="rating" type="radio" value="5" />
+													<label for="025" data-value="5">
+					<span class="rating-star">
+						<i class="fa fa-star-o"></i>
+						<i class="fa fa-star"></i>
+					</span>
+													</label>
+													<input id="024" name="rating" type="radio" value="4" />
+													<label for="024" data-value="4">
+					<span class="rating-star">
+						<i class="fa fa-star-o"></i>
+						<i class="fa fa-star"></i>
+					</span>
+													</label>
+													<input id="023" name="rating" type="radio" value="3" />
+													<label for="023" data-value="3">
+					<span class="rating-star">
+						<i class="fa fa-star-o"></i>
+						<i class="fa fa-star"></i>
+					</span>
+													</label>
+													<input id="022" name="rating" type="radio" value="2" />
+													<label for="022" data-value="2">
+					<span class="rating-star">
+						<i class="fa fa-star-o"></i>
+						<i class="fa fa-star"></i>
+					</span>
+													</label>
+													<input id="021" name="rating" type="radio" value="1" />
+													<label for="021" data-value="1">
+					<span class="rating-star">
+						<i class="fa fa-star-o"></i>
+						<i class="fa fa-star"></i>
+					</span>
+													</label>
+												</div>
+											</fieldset>
+										</form>
+									</div>
+									<strong>Orest shook</strong>
+									<span>, July 13</span>
+									<span>By <em>Wolfam</em></span>
+									<span>Sed ut mi mollis</span>
+								</div>
+							</header>
+							<p>Sed ut mi mollis, consequat nulla lacinia, hendrerit turpis. Nulla sapien magna, interdum quis pretium nec, pharetra at felis.</p>
+						</blockquote>
+						<blockquote>
+							<header>
+								<img src="img/avatar.png" class="rating-img" alt="avatar">
+								<div class="block-rating-header">
+									<div class="product-rating"4>
+										<form class="rating-form" action="#" method="post" name="rating-movie">
+											<fieldset class="form-group">
+												
+												<div class="form-item">
+													
+													<input id="035" name="rating" type="radio" value="5" />
+													<label for="035" data-value="5">
+					<span class="rating-star">
+						<i class="fa fa-star-o"></i>
+						<i class="fa fa-star"></i>
+					</span>
+													</label>
+													<input id="034" name="rating" type="radio" value="4" />
+													<label for="034" data-value="4">
+					<span class="rating-star">
+						<i class="fa fa-star-o"></i>
+						<i class="fa fa-star"></i>
+					</span>
+													</label>
+													<input id="033" name="rating" type="radio" value="3" />
+													<label for="033" data-value="3">
+					<span class="rating-star">
+						<i class="fa fa-star-o"></i>
+						<i class="fa fa-star"></i>
+					</span>
+													</label>
+													<input id="032" name="rating" type="radio" value="2" />
+													<label for="032" data-value="2">
+					<span class="rating-star">
+						<i class="fa fa-star-o"></i>
+						<i class="fa fa-star"></i>
+					</span>
+													</label>
+													<input id="031" name="rating" type="radio" value="1" />
+													<label for="031" data-value="1">
+					<span class="rating-star">
+						<i class="fa fa-star-o"></i>
+						<i class="fa fa-star"></i>
+					</span>
+													</label>
+												</div>
+											</fieldset>
+										</form>
+									</div>
+									<strong>Taran Cicero</strong>
+									<span>, July 16</span>
+									<span>By <em>Wolfam</em></span>
+									<span>Sed ut mi mollis</span>
+								</div>
+							</header>
+							<p>Sed ut mi mollis, consequat nulla lacinia, hendrerit turpis. Nulla sapien magna, interdum quis pretium nec, pharetra at felis.Sed ut mi mollis, consequat nulla lacinia, hendrerit turpis. Nulla sapien magna, interdum quis pretium nec, pharetra at felis.</p>
+						</blockquote>
+						<blockquote>
+							<header>
+								<img src="img/avatar.png" class="rating-img" alt="avatar">
+								<div class="block-rating-header">
+									<div class="product-rating"5>
+										<form class="rating-form" action="#" method="post" name="rating-movie">
+											<fieldset class="form-group">
+												
+												<div class="form-item">
+													
+													<input id="045" name="rating" type="radio" value="5" />
+													<label for="045" data-value="5">
+					<span class="rating-star">
+						<i class="fa fa-star-o"></i>
+						<i class="fa fa-star"></i>
+					</span>
+													</label>
+													<input id="044" name="rating" type="radio" value="4" />
+													<label for="044" data-value="4">
+					<span class="rating-star">
+						<i class="fa fa-star-o"></i>
+						<i class="fa fa-star"></i>
+					</span>
+													</label>
+													<input id="043" name="rating" type="radio" value="3" />
+													<label for="043" data-value="3">
+					<span class="rating-star">
+						<i class="fa fa-star-o"></i>
+						<i class="fa fa-star"></i>
+					</span>
+													</label>
+													<input id="042" name="rating" type="radio" value="2" />
+													<label for="042" data-value="2">
+					<span class="rating-star">
+						<i class="fa fa-star-o"></i>
+						<i class="fa fa-star"></i>
+					</span>
+													</label>
+													<input id="041" name="rating" type="radio" value="1" />
+													<label for="041" data-value="1">
+					<span class="rating-star">
+						<i class="fa fa-star-o"></i>
+						<i class="fa fa-star"></i>
+					</span>
+													</label>
+												</div>
+											</fieldset>
+										</form>
+									</div>
+									<strong>Yalova Gabriel</strong>
+									<span>, July 17</span>
+									<span>By <em>Wolfam</em></span>
+									<span>Sed ut mi mollis</span>
+								</div>
+							</header>
+							<p>Sed ut mi mollis, consequat nulla lacinia, hendrerit turpis. Nulla sapien magna, interdum quis pretium nec, pharetra at felis.</p>
+						</blockquote>
+						<blockquote>
+							<header>
+								<img src="img/avatar.png" class="rating-img" alt="avatar">
+								<div class="block-rating-header">
+									<div class="product-rating"6>
+										<form class="rating-form" action="#" method="post" name="rating-movie">
+											<fieldset class="form-group">
+												
+												<div class="form-item">
+													
+													<input id="055" name="rating" type="radio" value="5" />
+													<label for="055" data-value="5">
+					<span class="rating-star">
+						<i class="fa fa-star-o"></i>
+						<i class="fa fa-star"></i>
+					</span>
+													</label>
+													<input id="054" name="rating" type="radio" value="4" />
+													<label for="054" data-value="4">
+					<span class="rating-star">
+						<i class="fa fa-star-o"></i>
+						<i class="fa fa-star"></i>
+					</span>
+													</label>
+													<input id="053" name="rating" type="radio" value="3" />
+													<label for="053" data-value="3">
+					<span class="rating-star">
+						<i class="fa fa-star-o"></i>
+						<i class="fa fa-star"></i>
+					</span>
+													</label>
+													<input id="052" name="rating" type="radio" value="2" />
+													<label for="052" data-value="2">
+					<span class="rating-star">
+						<i class="fa fa-star-o"></i>
+						<i class="fa fa-star"></i>
+					</span>
+													</label>
+													<input id="051" name="rating" type="radio" value="1" />
+													<label for="051" data-value="1">
+					<span class="rating-star">
+						<i class="fa fa-star-o"></i>
+						<i class="fa fa-star"></i>
+					</span>
+													</label>
+												</div>
+											</fieldset>
+										</form>
+									</div>
+									<strong>Drozdov Eric</strong>
+									<span>, July 17</span>
+									<span>By <em>Wolfam</em></span>
+									<span>Sed ut mi mollis</span>
+								</div>
+							</header>
+							<p>Sed ut mi mollis, consequat nulla lacinia, hendrerit turpis. Nulla sapien magna, interdum quis pretium nec, pharetra at felis.Sed ut mi mollis, consequat nulla lacinia, hendrerit turpis.</p>
+						</blockquote>
+						<blockquote>
+							<header>
+								<img src="img/avatar.png" class="rating-img" alt="avatar">
+								<div class="block-rating-header">
+									<div class="product-rating">
+										<form class="rating-form" action="#" method="post" name="rating-movie">
+											<fieldset class="form-group">
+												
+												<div class="form-item">
+													
+													<input id="065" name="rating" type="radio" value="5" />
+													<label for="065" data-value="5">
+					<span class="rating-star">
+						<i class="fa fa-star-o"></i>
+						<i class="fa fa-star"></i>
+					</span>
+													</label>
+													<input id="064" name="rating" type="radio" value="4" />
+													<label for="064" data-value="4">
+					<span class="rating-star">
+						<i class="fa fa-star-o"></i>
+						<i class="fa fa-star"></i>
+					</span>
+													</label>
+													<input id="063" name="rating" type="radio" value="3" />
+													<label for="063" data-value="3">
+					<span class="rating-star">
+						<i class="fa fa-star-o"></i>
+						<i class="fa fa-star"></i>
+					</span>
+													</label>
+													<input id="062" name="rating" type="radio" value="2" />
+													<label for="062" data-value="2">
+					<span class="rating-star">
+						<i class="fa fa-star-o"></i>
+						<i class="fa fa-star"></i>
+					</span>
+													</label>
+													<input id="061" name="rating" type="radio" value="1" />
+													<label for="061" data-value="1">
+					<span class="rating-star">
+						<i class="fa fa-star-o"></i>
+						<i class="fa fa-star"></i>
+					</span>
+													</label>
+												</div>
+											</fieldset>
+										</form>
+									</div>
+									<strong>Belyaev Charles</strong>
+									<span>, July 17</span>
+									<span>By <em>Wolfam</em></span>
+									<span>Sed ut mi mollis</span>
+								</div>
+							</header>
+							<p>Sed ut mi mollis, consequat nulla lacinia, hendrerit turpis. Nulla sapien magna, consequat nulla lacinia, hendrerit turpis interdum quis pretium nec, pharetra at felis.Sed ut mi mollis, consequat nulla lacinia, hendrerit turpis. Nulla sapien magna, consequat nulla lacinia, hendrerit turpis interdum quis pretium nec, pharetra at felis.Sed ut mi mollis, consequat nulla lacinia, hendrerit turpis. Nulla sapien magna, consequat nulla lacinia, hendrerit turpis interdum quis pretium nec, pharetra at felis.</p>
+						</blockquote>
+					</section>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<footer class="footer-ave">
+	<div class="wrapper">
+		<div class="footer-group-container">
+			<div class="footer-group">
+				<h2 class="footer-title">Information</h2>
+				<ul class="footer-list">
+					<li><a href="/">The brand</a></li>
+					<li><a href="/">Local stores</a></li>
+					<li><a href="/">Customer service</a></li>
+					<li><a href="/">Privacy & cookies</a></li>
+					<li><a href="/">Site map</a></li>
+				</ul>
+			</div>
+			<div class="footer-group">
+				<h2 class="footer-title">Why buy from us</h2>
+				<ul class="footer-list">
+					<li><a href="/">Shipping & returns</a></li>
+					<li><a href="/">Secure shopping</a></li>
+					<li><a href="/">Testimonials</a></li>
+					<li><a href="/">Award winning</a></li>
+					<li><a href="/">Ethical trading</a></li>
+				</ul>
+			</div>
+			<div class="footer-group">
+				<h2 class="footer-title">Your account</h2>
+				<ul class="footer-list">
+					<li><a href="/">Sign in</a></li>
+					<li><a href="/">Register</a></li>
+					<li><a href="/">View cart</a></li>
+					<li><a href="/">View your lookbook</a></li>
+					<li><a href="/">Track an order</a></li>
+					<li><a href="/">Update information</a></li>
+				</ul>
+			</div>
+			<div class="footer-group">
+				<h2 class="footer-title">Lookbook</h2>
+				<ul class="footer-list">
+					<li><a href="/">Latest posts</a></li>
+					<li><a href="/">Men’s lookbook</a></li>
+					<li><a href="/">Women’s lookbook</a></li>
+					<li><a href="/">Lookbooks RSS feed</a></li>
+					<li><a href="/">View your lookbook</a></li>
+					<li><a href="/">Delete your lookbook</a></li>
+				</ul>
+			</div>
+			<div class="footer-group">
+				<h2 class="footer-title">contact details</h2>
+				<address>
+					Head Office: Avenue Fashion,<br />
+					180-182 Regent Street, London.<br />
+					Telephone: <a href="tel:+0123-456-789 ">0123-456-789 </a>.<br />
+					Email:
+					<a href="mailto:support@yourwebsite.com">support@yourwebsite.com</a>
+				</address>
+			</div>
+		</div>
+		<div class="footer-track">
+			<div class="foot-poster ban">
+				<div class="banner-text">
+					<p>
+						<span>award winner</span><br />
+						fashion awards 2016
+					</p>
+				</div>
+			</div>
+			<div class="foot-poster soc">
+				<div class="social-link">
+					<a href="/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+					<a href="/"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+					<a href="/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+					<a href="/"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer-line-bottom cf">
+		<div class="wrapper">
+			<div class="block-bottom-copy">
+				<p>&copy; 2016 Avenue Fashion™</p>
+			</div>
+			<div class="block-bottom-link">
+				<a href="mailto:RobbyDesigns.com" class="block-link">Design by RobbyDesigns.com</a>
+				<a href="mailto:Loremipsum.com" class="block-link">Dev by Loremipsum.com</a>
+			</div>
+		</div>
+	</div>
+</footer>
+<script src="js/scripts.min.js"></script>
+<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+<!--	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>-->
+</body>
+</html>
